@@ -17,7 +17,7 @@ def face_confidence(face_distance, face_match_threshold=0.6):
         return str(round(value, 2)) + '%'
 
 
-print("1")
+
 
 
 class FaceRecognition:
@@ -27,7 +27,7 @@ class FaceRecognition:
     known_face_encoding = []
     known_face_names = []
     process_current_frame = True
-    print("2")
+    
 
     def __init__(self):
         self.encode_faces()
